@@ -10,6 +10,8 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -48,6 +50,7 @@ body {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    padding-right: 93px;
 }
 
 
@@ -64,6 +67,8 @@ body {
     list-style-type: none;
     display: flex;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -155,6 +160,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin: 0px;
+    padding-bottom: 30px;
 }
 
 
@@ -180,6 +187,7 @@ body {
 .features {
     display: flex;
     justify-content: center;
+    padding-top: 96px;
 }
 
 
@@ -190,7 +198,6 @@ body {
     margin: 0%;
     width: 1170px;
     padding: 0px;
-    padding-top: 96px;
 }
 
 
@@ -236,6 +243,8 @@ body {
     letter-spacing: 0.03em;
     margin: 0px;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -300,6 +309,12 @@ body {
 }
 
 
+.team-information {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
 .team-name {
     font-weight: 500;
     font-size: 16px;
@@ -307,7 +322,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     margin: 0px;
-    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 
@@ -318,22 +333,13 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin: 0px;
 }
 
 /*Footer*/
 
 .page-footer {
     background: #2F303A;
-    display: flex;
-    align-items: center;
-}
-
-
-.footer-block {
-    margin: 0px;
-    padding: 0px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -349,7 +355,6 @@ body {
 
 
 .footer {
-    padding-left: 216px;
     line-height: 24px;
     font-style: normal;
 }
@@ -391,6 +396,11 @@ body {
     margin: 0;
     margin-bottom: 50px;
     list-style-type: none;
+    padding: 0px;
+}
+
+.filter-ul li:not(:last-child) {
+    margin-right: 8px;
 }
 
 
@@ -405,8 +415,9 @@ body {
     background: #F5F4FA;
     border: 0;
     border-radius: 4px;
-    margin: 0px 8px 0px 8px;
 }
+
+
 
 .button-filter:hover,
 .button-filter:focus {
@@ -433,12 +444,16 @@ body {
 
 .project-block {
     justify-content: center;
+    width: 370px;
     padding: 20px 24px 24px 20px;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 
 .project-title {
-    width: 322px;
+    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.2;
@@ -451,10 +466,9 @@ body {
 
 
 .project-text {
-    width: 322px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #757575;
     margin: 0;
