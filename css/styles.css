@@ -48,7 +48,7 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     padding-right: 93px;
 }
@@ -58,7 +58,7 @@ body {
     color: black;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
 }
 
@@ -78,7 +78,7 @@ body {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     padding: 32px 0px;
 }
@@ -114,7 +114,7 @@ body {
     color: #757575;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     margin-right: 50px;
 }
@@ -130,7 +130,7 @@ body {
     color: #757575;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -156,12 +156,12 @@ body {
     color: #fff;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin: 0px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -178,7 +178,7 @@ body {
     font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     border: 0;
     cursor: pointer;
 }
@@ -187,7 +187,7 @@ body {
 .features {
     display: flex;
     justify-content: center;
-    padding-top: 96px;
+    padding-top: 94px;
 }
 
 
@@ -213,7 +213,7 @@ body {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -221,9 +221,8 @@ body {
 
 .features-text {
     margin: 0px;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.8;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -239,7 +238,7 @@ body {
 .referral-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     margin: 0px;
     margin-bottom: 50px;
@@ -282,7 +281,7 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     margin: 0;
     margin-bottom: 50px;
@@ -310,15 +309,15 @@ body {
 
 
 .team-information {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
 .team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     margin: 0px;
@@ -327,9 +326,8 @@ body {
 
 
 .team-profession {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -349,19 +347,20 @@ body {
     color: #fff;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
 
 .footer {
-    line-height: 24px;
+    
     font-style: normal;
 }
 
 
 .footer-address {
     font-size: 14px;
+    line-height: 1.6;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     margin: 0px;
@@ -371,6 +370,7 @@ body {
 
 .footer-text {
     font-size: 14px;
+    line-height: 1.6;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin: 0px;
@@ -408,7 +408,7 @@ body {
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.7;
     letter-spacing: 0.03em;   
     color: #212121;
     padding: 6px 22px 6px 22px;
@@ -445,7 +445,7 @@ body {
 .project-block {
     justify-content: center;
     width: 370px;
-    padding: 20px 24px 24px 20px;
+    padding: 20px 24px 20px 24px;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
@@ -456,7 +456,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
     margin: 0;
@@ -466,9 +466,8 @@ body {
 
 
 .project-text {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.8;
     letter-spacing: 0.03em;
     color: #757575;
     margin: 0;
